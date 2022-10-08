@@ -253,6 +253,18 @@ class EditorJsColumns {
 			// 	// console.log(b)
 			// }
 			// else
+			let isColumn = false;
+			const elements = document.querySelectorAll('.ce-editorjsColumns_wrapper');
+			for (let element of elements) {
+				if (event.target == element || element.contains(event.target)) {
+					isColumn = true;
+				}
+			}
+
+			if (!isColumn) {
+				return;
+			}
+
 			if (event.key === "Enter" && !event.shiftKey) {
 				event.stopImmediatePropagation();
 				event.preventDefault();

@@ -1,6 +1,6 @@
 {
   "name": "@lokeshpahal/editorjs-columns-imp",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Columns, for EditorJS",
   "main": "dist/editorjs-columns.bundle.js",
   "scripts": {
