@@ -1,5 +1,5 @@
 {
-  "name": "@calumk/editorjs-columns",
+  "name": "@lokeshpahal/editorjs-columns-imp",
   "version": "0.2.4",
   "description": "Columns, for EditorJS",
   "main": "dist/editorjs-columns.bundle.js",
@@ -8,7 +8,7 @@
     "build:dev": "webpack --mode development --watch",
     "dev": "webpack-dev-server"
   },
-  "author": "Calum Knott",
+  "author": "Lokesh P",
   "license": "MIT",
   "dependencies": {
     "@editorjs/editorjs": "^2.25.0",
